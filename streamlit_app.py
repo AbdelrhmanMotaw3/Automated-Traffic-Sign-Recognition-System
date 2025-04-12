@@ -7,7 +7,7 @@ from PIL import Image
 # Load the model (cached so it doesn't reload every time)
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model(r"F:\DEPI Microsoft Machine Learning\Round2\GP\EDA for 1st Milestone\model.h5")
+    model = tf.keras.models.load_model("model.h5")
     return model
 
 # Function to prepare and preprocess the image before feeding it to the model
