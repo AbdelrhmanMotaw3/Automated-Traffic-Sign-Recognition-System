@@ -1,6 +1,4 @@
 
----
-
 ## 🚦 Automated Traffic Sign Recognition System
 A deep learning-based web application that classifies traffic signs from images using a Convolutional Neural Network (CNN). Built with TensorFlow and Streamlit, it provides an intuitive interface for real-time predictions
 
@@ -8,13 +6,14 @@
 
 ### 📸 Demo
 Experience the live application her:  
-🔗 [Streamlit App](https://automated-traffic-sign-recognition-system.streamlit.app/)
+🔗 [Streamlit App]([https://automated-traffic-sign-recognition-system.streamlit.app](https://automated-traffic-sign-recognition-system-5dbegjn7biglnjhvtv9t.streamlit.app/)/)
 
 ---
 
 ### 📂 Repository Structue
 
 
+
 ```bash
 ├── streamlit_app.py         # Streamlit web application
 ├── main.ipynb               # Model training and evaluation notebook
@@ -23,6 +22,7 @@
 ├── requirements.txt         # Python dependencies
 ├── README.md                # Project documentation
 ``
+
 
 
 ---
@@ -32,6 +32,7 @@
 The CNN model is designed to efficiently extract features from traffic sign images and classify them into 43 categoies
 
 
+
 ```text
 Input Layer: 32x32x3 RGB image
 ↓
@@ -49,19 +50,16 @@ Dense (128 units) + ReLU
 ↓
 Dropout (0.5)
 ↓
-Dense (43 units) + Softmax```
-
-For a visual representaion:  
-![CNN Architecture](./assets/cnn_architecture.png)
-
----
+Dense (43 units) + Softmax
+``
+
 
 ### 🗃️ Dataset
 
 - **Nae:** German Traffic Sign Recognition Benchmark (TSRB)
 - **Classs:* 43
 - **Descriptin:** A comprehensive dataset containing over 50,000 images of traffic signs captured under various condiions.
-- **Soure:** [GTSRB Dataset](https://benchmark.ini.rub.de/?section=gtsrb&subsection=daaset)
+- **Soure:** [GTSRB Dataset]([https://benchmark.ini.rub.de/?section=gtsrb&subsection=daaset](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign/data))
 
 ---
 
@@ -74,6 +72,7 @@ Dense (43 units) + Softmax```
 #### Installtion
 
 
+
 ```bash
 # Clone the repository
 git clone https://github.com/AbdelrhmanMotaw3/Automated-Traffic-Sign-Recognition-System.git
@@ -82,17 +81,20 @@ git clone https://github.com/AbdelrhmanMotaw3/Automated-Traffic-Sign-Recognition
 cd Automated-Traffic-Sign-Recognition-System
 
 # Install dependencies
-pip install -r requirements.tt
+pip install -r requirements.tx
 ```
+
 
 
 #### Running the Appliction
 
 
+
 ```bash
 # Start the Streamlit app
-streamlit run streamlit_app.y
+streamlit run streamlit_app.p
 ``
+
 
 
 Upload a `.png` image of a traffic sign, and the application will display the predicted class along with the confidencescore.
@@ -106,6 +108,17 @@ streamlit run streamlit_app.y
 - Displays predicted class name and confidenc leel
 - Handles image preprocessing and normalzaton
 - Provides informative error messages for unsupportedinputs
+
+---
+
+### 🧑‍💻 Contrbutors
+
+| Name               | Role                             |
+|--------------------|----------------------------------|
+| Abdelrhman Motawea | Model development & deployment   |
+| [Contributor 2]    | Data preprocessing & augmentation|
+| [Contributor 3]    | UI/UX design & testing           |
+| [Contributor 4]    | Documentation & presentaton     |
 
 ---
 
@@ -126,7 +139,7 @@ streamlit run streamlit_app.y
 
 ### 🙌 Acknowldgments
 
-- [GTSRB Dataset](https://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) for providingthedataset
+- [GTSRB Dataset]([https://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign/data)) for providingthedataset
 - [Streamlit](https://streamlit.io/) for the web applicatin famework
 - [TensorFlow](https://www.tensorflow.org/) for modeldevelopmnt
 
