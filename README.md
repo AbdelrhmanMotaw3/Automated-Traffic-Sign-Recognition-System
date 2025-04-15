@@ -1,5 +1,5 @@
 
-```
+
 # 🚦 Automated Traffic Sign Recognition System
 
 A deep learning-based web application that classifies traffic signs from images using a Convolutional Neural Network (CNN). Built with TensorFlow and Streamlit, it provides an intuitive interface for real-time predictions.
