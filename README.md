@@ -9,7 +9,7 @@ A deep learning-based web application that classifies traffic signs from images 
 ## 📸 Demo
 
 Try the live app here:  
-🔗 [Streamlit App]([https://automated-traffic-sign-recognition-system.streamlit.app/](https://automated-traffic-sign-recognition-system-5dbegjn7biglnjhvtv9t.streamlit.app/))
+🔗 [Streamlit App](https://automated-traffic-sign-recognition-system-5dbegjn7biglnjhvtv9t.streamlit.app/)
 
 ---
 
@@ -56,7 +56,7 @@ Dense (43 units) + Softmax
 
 - **Name:** German Traffic Sign Recognition Benchmark (GTSRB)  
 - **Classes:** 43  
-- **Source:** [GTSRB Dataset][(https://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign/data))
+- **Source:** [GTSRB Dataset](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign/data)
 
 ---
 
@@ -102,7 +102,7 @@ streamlit run streamlit_app.py
 - Add data augmentation
 - Support more image formats
 - Deploy on mobile
-- Show prediction explanation (Grad-CAM)
+- Show prediction explanation 
 
 ---
 
@@ -119,5 +119,4 @@ This project is licensed under the MIT License.
 - TensorFlow for deep learning framework
 ```
 
----
 
